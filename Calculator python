@@ -16,3 +16,25 @@ elif op == "/":
     print(res)
 else:
     print("Invalid operator")
+choice=input("Do you want to calculate again(yes/no):")
+    if choice.lower()=="yes":
+        print("Goodbye ")
+    num1 = float(input("Enter first number: "))
+op = input("Enter operator (+, -, *, /): ")
+num2 = float(input("Enter second number: "))
+
+if op == "+":
+    res=num1+num2
+    print(res)
+elif op == "-":
+    res=num1-num2
+    print(res)
+elif op == "*":
+    res=num1*num2
+    print(res)
+elif op == "/":
+    res=num1/num2
+    print(res)
+else:
+    print("Invalid operator")
+
